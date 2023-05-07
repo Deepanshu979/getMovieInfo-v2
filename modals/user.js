@@ -9,7 +9,6 @@ const userSchema = new mongoose.Schema({
   watchList: [
     {
       imdbId: "String",
-      name:"String"
     },
   ],
   googleId: String,
