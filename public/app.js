@@ -285,4 +285,5 @@ function func() {
 
 function movieDetails(id) {
   window.location.href = "/" + id;
+  console.log(id);
 }
